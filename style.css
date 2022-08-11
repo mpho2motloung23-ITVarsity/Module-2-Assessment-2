@@ -1,0 +1,236 @@
+
+
+body{
+     padding    : 0;
+     margin     : 0;
+     font-family: Helvetica;
+}
+#content{
+        padding-top: 1px;
+        padding-bottom: 50px;
+    }
+/*============Main=====================*/
+#main{
+   background:lightblue;
+}
+
+
+/*================TOP-TABS===================*/
+#tabs-top{
+      position: fixed;
+      
+      width   : 100%;
+      height  : 40px;
+      background-color: blue;
+}
+
+#tabs-top a{
+      float   : left;
+      display : block;
+      width   : 33%;
+      height  :35px;
+      font-weight : 700;
+      color       : white;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     : 12px;  
+}
+
+#tabs-bottom{
+      position : fixed;
+      bottom   : 0;
+      left     : 0;
+      
+      width    : 100%;
+      height   : 40px;
+      background-color: blue;
+}
+
+#tabs-bottom a{
+     float : left;
+     display : block;
+     width : 33%;
+     height : 35px;
+     font-weight : 700;
+     color       : white; 
+     text-align  : center;
+     text-decoration : none;
+     padding-top     : 12px;
+}
+a:hover {
+    background-color: rgb(0, 255, 255);
+
+}
+    /*================MAIN-HOME===================*/
+
+#main-home{
+    margin-top: -700px;
+    
+}
+    /*================map===================*/
+    .map {
+        margin: 80px;
+    border: 1px solid #ccc;
+    object-fit: cover;
+    }
+    .map img{
+        width: 100%;
+        height: auto;
+    }
+
+
+/*================Index-Images===================*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+} 
+.gallery{
+    margin: 80px;
+    border: 1px solid #ccc;
+    object-fit: cover;
+
+  
+}
+.gallery img {
+    width: 500px;
+    height: 500px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.desc2{
+    padding: 15px;
+    text-align: center;
+    font: italic;
+}
+/*==============About==================================**/
+.container2{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+} 
+.gallery2{
+    margin: 80px;
+    border: 1px solid #ccc;
+    
+
+  
+}
+.gallery2 img {
+    width: 500px;
+    height: auto;
+    
+    object-fit: cover;
+}
+.desc{
+    padding: 15px;
+    text-align: left;
+    font: bold;
+}
+
+
+
+/*================INFO BOX==================**/
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+}
+.info-box img{
+      height : 70px;
+      margin : 10px;
+      float  : left;
+}
+
+.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : #572800;
+}
+
+.info-box p{
+    margin-top: 0px;
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color  : #131313;
+}
+
+
+.info-box img.right{
+      float      : right;
+      margin-top : 20px;
+      height   :  50px; 
+}
+
+/*================Info-box-full===================*/
+#info-box-full{
+    background: rgba(255,255,255,.8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;      
+}
+#info-box-full img{
+      width : 100%;
+}
+
+#info-box-full h3{
+      text-align : center;
+}
+/* =================MOVIES=========================*/
+.info-box h1.right{
+    float      : right;
+    margin-top : 20px;
+    height   :  40px; 
+}
+/*=================Contact-Form========================*/
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
